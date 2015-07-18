@@ -1,4 +1,5 @@
 # FnixForth
+<pre>
 (A minimalist ColorForth variant)
 
 fnix.img is a bootable floppy image for x86.
@@ -58,3 +59,4 @@ Cyan  |   lit |compile call|compile call|
 
 If a Green or Cyan word is found to have been defined both Blue and Red,
 then the Blue word will be used.
+</pre>
