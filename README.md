@@ -9,11 +9,11 @@ If you can boot from a floppy drive then you may be able to write
 this image to a 1.44Mb floppy and boot it.
 The boot sector enters protected mode, copies the first two floppy
 cylinders (36 blocks each 1024 bytes) to address 0 in RAM, and starts
-reading the FnixForth that begins in block 2 (hence only blocks 0
-and 1 contain pre-compiled machine code).
+reading the FnixForth that begins in block 2 (only blocks 0 and 1 contain
+pre-compiled machine code).
 The FnixForth code includes a block editor, floppy driver, and a
 GA144 boot stream compiler I am calling Fivth.
-The example Fivth code in block 24 generates a GA144 boot stream that
+The example Fivth code in block 26 generates a GA144 boot stream that
 would drive a 2 character 7 segment LED display using 16 bits of
 node 009 to cycle through octal digits.
 
